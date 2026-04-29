@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  border-radius: 20px;
+  box-shadow: 0px 0px 9px  #605B51;
+  width: 25%;
+  height: 50%;
+}
+form h2{
+  color: rgb(166, 7, 7);
+  margin: 30px 0 20px 0px;
+  margin-left: 28%;
+}
+form .labal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .labal .height{
+  margin-top: 20px;
+}
+form .botton{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+form .botton button{
+  color:black;
+  outline: none;
+  border: none;
+  background-color: #2F2FE4;
+  padding: 7px 12px;
+  border-radius: 8px;
+}
+form .botton button:hover{
+  color: #EDE9E6;
+  background-color: #162E93;
+  cursor: pointer;
+}
+form .bmicolor{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .bmicolor p{
+  color: #468432;
+}
+form .bmicolor h3{
+  color: #DB1A1A;
+}
